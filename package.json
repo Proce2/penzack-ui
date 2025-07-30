@@ -1,5 +1,5 @@
 {
-  "name": "@penzack/ui",
+  "name": "penzack-ui",
   "version": "0.1.0",
   "description": "White-label UI components for Penzack trading platform",
   "type": "module",
