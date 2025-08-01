@@ -28,8 +28,8 @@ function ProductActions() {
 
 ## 🧱 Components
 
-- ✅ **Button** - Primary, secondary, outline variants with loading states and full-width options
-- ✅ **StatusLabel** - Labels for displaying status like 'active', 'in-progress', 'inactive', etc.
+- ✅ **Button**
+- ✅ **StatusLabel**
 
 ## ✨ Live Example
 
