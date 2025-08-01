@@ -18,37 +18,37 @@
   cursor: not-allowed;
 }
 
-/* Variants */
+/* Variants - Blue Color Scheme */
 .pz-button--primary {
-  background-color: var(--pz-color-primary, #3B82F6);
+  background-color: #3B82F6;
   color: white;
-  border-color: var(--pz-color-primary, #3B82F6);
+  border-color: #3B82F6;
 }
 
 .pz-button--primary:hover:not(:disabled) {
-  background-color: var(--pz-color-primary-hover, #2563EB);
-  border-color: var(--pz-color-primary-hover, #2563EB);
+  background-color: #2563EB;
+  border-color: #2563EB;
 }
 
 .pz-button--secondary {
-  background-color: var(--pz-color-secondary, #6B7280);
-  color: white;
-  border-color: var(--pz-color-secondary, #6B7280);
+  background-color: #ffffff;
+  color: #000000;
+  border: 3px solid #2563eb;
 }
 
 .pz-button--secondary:hover:not(:disabled) {
-  background-color: var(--pz-color-secondary-hover, #4B5563);
-  border-color: var(--pz-color-secondary-hover, #4B5563);
+  background-color: #f8fafc;
+  border: 3px solid #1d4ed8;
 }
 
 .pz-button--outline {
   background-color: transparent;
-  color: var(--pz-color-primary, #3B82F6);
-  border-color: var(--pz-color-primary, #3B82F6);
+  color: #3B82F6;
+  border-color: #3B82F6;
 }
 
 .pz-button--outline:hover:not(:disabled) {
-  background-color: var(--pz-color-primary, #3B82F6);
+  background-color: #3B82F6;
   color: white;
 }
 

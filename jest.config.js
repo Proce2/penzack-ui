@@ -21,4 +21,7 @@ export default {
     },
   },
   extensionsToTreatAsEsm: ['.ts', '.tsx'],
+  moduleNameMapper: {
+    '\\.(css|less|scss|sass)$': '<rootDir>/test/styleMock.js',
+  },
 };

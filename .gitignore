@@ -9,6 +9,11 @@ pnpm-debug.log*
 dist/
 build/
 storybook-static/
+.next/
+out/
+
+# Example/Demo projects
+nextjs-dashboard/
 
 # Environment variables
 .env
@@ -16,6 +21,9 @@ storybook-static/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Next.js
+next-env.d.ts
 
 # IDE
 .vscode/

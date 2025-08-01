@@ -2,6 +2,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
 import dts from 'rollup-plugin-dts';
+import postcss from 'rollup-plugin-postcss';
 
 export default [
   {
@@ -21,12 +22,16 @@ export default [
     plugins: [
       resolve(),
       commonjs(),
+      postcss({
+        extract: true,
+        minimize: true,
+      }),
       typescript({
         tsconfig: './tsconfig.json',
         exclude: ['**/*.test.tsx', '**/*.stories.tsx'],
       }),
     ],
-    external: ['react', 'react-dom', 'clsx'],
+    external: ['react', 'react-dom', 'react/jsx-runtime', 'clsx'],
   },
   {
     input: 'dist/index.d.ts',
