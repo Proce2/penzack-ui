@@ -28,17 +28,8 @@ function ProductActions() {
 
 ## 🧱 Components
 
-### Button
-Primary, secondary, and outline variants with loading states and full-width options.
-
-![Button Components](assets/button-screenshot.png)
-
-![Button Variants](assets/button2-screenshot.png)
-
-### StatusLabel  
-Labels for displaying status like 'active', 'in-progress', 'inactive', etc.
-
-![Status Label Components](assets/labelstatus-screenshot.png)
+- ✅ **Button** - Primary, secondary, outline variants with loading states and full-width options
+- ✅ **StatusLabel** - Labels for displaying status like 'active', 'in-progress', 'inactive', etc.
 
 ## ✨ Live Example
 
@@ -46,21 +37,13 @@ Here's how these components look in a real dashboard application:
 
 ![Penzack UI Dashboard Example](assets/dashboard-screenshot.png)
 
-The dashboard above shows the `Button` and `StatusLabel` components in action - the "Export" and "Add Product" buttons, along with the "In Progress," "Active," and "Inactive" status labels are all from the `penzack-ui` library.
+In the dashboard above, the **penzack-ui components** are:
+- **Buttons**: "Export" and "Add Product" buttons
+- **StatusLabel**: "In Progress" status label
 
-## 🎨 Theming
+The rest of the dashboard interface (tables, layout, navigation) is part of the dashboard application, not the penzack-ui library.
 
-Customize the look and feel of the components by overriding the CSS custom properties.
-
-```css
-:root {
-  --pz-color-primary: #your-brand-color;
-  --pz-color-background: #111827;
-  --pz-color-surface: #1F2937;
-}
-```
-
-## 🛠️ Development
+## Development
 
 ```bash
 # Install dependencies
@@ -75,6 +58,16 @@ npm test
 # Build package
 npm run build
 ```
+
+## 🎨 Customization
+
+To customize component styling, modify the CSS files directly:
+
+**Button Component:**
+- `src/components/Button/Button.css` - Button styles and variants
+
+**StatusLabel Component:**
+- `src/components/StatusLabel/StatusLabel.css` - Status label styles and states
 
 ## 📚 Documentation
 
